@@ -66,7 +66,7 @@ class BudgetScreenState extends State<BudgetScreen> {
                     final category = expenseCategories[index];
                     return ListTile(
                       leading: Image.asset(
-                        'images/${category.categoryImage}',
+                        'assets/images/${category.categoryImage}',
                         height: 40,
                       ),
                       title: Row(
